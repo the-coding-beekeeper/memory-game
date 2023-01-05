@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  justify-items: center;
+}
+#toolbar {
+  margin-left: 50px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#counter, #best, #title {
+  font-size: 30px;
+  color:white;
+}
+#pitch {
+  margin-left: 50px;
+  margin-top:20px;
+  width: max-content;
+  height: max-content;
+  border: 1px solid rgb(10, 23, 15);
+  background-color: black;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  grid-template-rows:  200px 200px 200px 200px;
+  }
+#start {
+  font-size: 20px;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+}
+#start:hover {
+  cursor: pointer;
+}
+.playing-card {
+  margin: 5px 5px 5px 5px;
+}
+.images {
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.playing-card:hover {
+  cursor: pointer;
+}
